@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test"
+version = "1"
+description = "Test setup"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-libtiepie = "^0.9.9"
+numpy = "^1.24.3"
+sklearn = "^0.0.post5"
+matplotlib = "^3.7.1"
+pandas = "^2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
