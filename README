@@ -1,1 +1,5 @@
-This is a test for managing Poetry with python
+This is a test for setting up python with Poetry.
+In main.ipynb you will find a segmented script which creates clean and noisy sinusoid data for classification
+This data is then split into training and testing sets
+Using NCA as an embedding method with KNN classifying, clean and noisy data may be categorised
+Finally an outside test is conducted with a new piece of data not seen by the ML, one clean and one noisy.
