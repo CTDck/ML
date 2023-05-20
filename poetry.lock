@@ -980,17 +980,6 @@ files = [
 six = ">=1.5"
 
 [[package]]
-name = "python-libtiepie"
-version = "0.9.9"
-description = "Python bindings for LibTiePie"
-optional = false
-python-versions = ">=3"
-files = [
-    {file = "python-libtiepie-0.9.9.tar.gz", hash = "sha256:a8c711ee384d59299961b5d4bdbca1f9a2868b3879a1969b4b6e37c6411f765f"},
-    {file = "python_libtiepie-0.9.9-py3-none-any.whl", hash = "sha256:8c63a896d99d3a28414b8c67908af3a83e6ed9972b6bc28ebf25810666289aff"},
-]
-
-[[package]]
 name = "pytz"
 version = "2023.3"
 description = "World timezone definitions, modern and historical"
@@ -1294,4 +1283,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "68f5d67f4a7180b5ec325e628024359d1990e3e29dc8ab613dfea89670889f92"
+content-hash = "269f3d4880300f86d10a05b84cf918452647d62eff032aebd90986df5fceb30c"
