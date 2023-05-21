@@ -9,3 +9,9 @@ In main.ipynb you will find a segmented script which creates clean and noisy sin
 This data is then split into training and testing sets
 Using NCA as an embedding method with KNN classifying, clean and noisy data may be categorised
 Finally an outside test is conducted with a new piece of data not seen by the ML, one clean and one noisy.
+
+I attempt to recreate some known strange attractors in gen_attractor.ipynb. 
+It does take a while to generate the attractor animations, around 10minutes per attractor.
+The plotted attractors are Lorenz, Newton-Leipnik, Aizawa, Halvorsen, Sprott and Thomas.
+The code does need cleaned up though but the main functionality is there 
+Each cell outputs the animation in the form of ["AttractorName"].mp4 to the created data folder.
