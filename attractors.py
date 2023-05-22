@@ -3,6 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
+from IPython.display import clear_output
 
 
 class Attractor:
@@ -99,6 +100,8 @@ class Attractor:
             else:
                 self.ax.plot3D(*points[:t].T, color="red", lw=0.5, alpha=1)
         self.ax.view_init(30, t / 1000 * 180)
+        clear_output(wait=True)
+        print(f"Iteration No: {t} out of {self.iter}")
 
     def draw_figure(self, name, points):
         """Draw the figure
