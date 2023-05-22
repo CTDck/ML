@@ -3,7 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-from IPython.display import clear_output, HTML
+from IPython.display import clear_output
 
 class Attractor:
     """Create attractor object"""
@@ -13,8 +13,6 @@ class Attractor:
         self.iter = iteration
         self.fig = plt.figure()
         self.ax = plt.axes(projection="3d")
-        self.limit = 0
-        self.far_point = 0
 
     def lorenz(self, xyz, *, s=10, r=28, b=2.667):
         """Setup lorenz set of differential equations
